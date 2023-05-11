@@ -37,7 +37,6 @@ class Clip1Cliper extends CustomClipper<Path> {
     // third corner position (bottom right)
     path.lineTo(size.width, size.height);
     // 4th corner position (top right)
-    path.lineTo(size.width, 0);
 
     return path;
   }
